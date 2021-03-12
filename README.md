@@ -12,7 +12,7 @@ git clone ssh://git@github.com/JSchillinger/kafka-docker.git
 
 ## 2. Modify docker-compose.yml
 
-Modify docker-compose.yml and change the value of `KAFKA_ADVERTISED_HOST_NAME` to your local IP address
+Modify docker-compose.yml and change the value of `KAFKA_ADVERTISED_HOST_NAME` to your local IP address. For example if you local machine IP address is `10.11.0.100`
 
 ```
 KAFKA_ADVERTISED_HOST_NAME: 10.11.0.100
